@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit
 
 @Service
 class TelegramService(
-    private val telegrambot: TelegramBot = TelegramBot("7605179129:AAGMJnOdID6EcCgkz3k_Z3DH7fC2wR-ps6c"),
+    private val telegrambot: TelegramBot = TelegramBot("TOKEN"),
     private val telegramUserRepository: TelegramUserRepository,
 ) {
     init {
